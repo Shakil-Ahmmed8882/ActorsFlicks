@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  gap:8px;
+  justify-content: space-evenly;
+  z-index:999;
+}
+
+.color{
+  color: rgb(0, 240, 20);
+}
+
+body{
+  background-image: url('https://th.bing.com/th/id/OIP.Nf4HBjqFmfH7RJWb-dJCPQHaEo?pid=ImgDet&rs=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  background-position: right top;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  position: fixed;   
+  top: 0;               
+  left: 0;              
+  width: 100vw;         
+  height: 100vh;        
+  background-color: rgba(0, 0, 0, 0.64);
+  z-index: -1;           
+}
